@@ -10,5 +10,5 @@ def to_hex(n):
     return reversed_number[::-1]
     
 def hex_color(red,green,blue):
-    return to_hex(red).zfill(2)+to_hex(green).zfill(2)+to_hex(blue).zfill(2)
+    return to_hex(red).zfill(2) + to_hex(green).zfill(2) + to_hex(blue).zfill(2)
     
